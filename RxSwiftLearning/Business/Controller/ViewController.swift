@@ -7,9 +7,21 @@
 //
 
 import UIKit
+import Then
+
+
 
 class ViewController: UIViewController {
 
+    // MARK:- property
+    
+    let tableView = UITableView().then {
+        
+        $0.backgroundColor = UIColor.red
+        
+    }
+    
+    // MARK:- lifeCyle
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
