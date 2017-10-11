@@ -10,7 +10,7 @@ import UIKit
 import Reusable
 
 
-class ItemCell: UITableViewCell {
+class ItemCell: UITableViewCell,NibReusable {
 
     // MARK:- property
     
