@@ -53,7 +53,7 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="desLabel" destination="C1Y-1n-j0T" id="FzL-D5-2Sk"/>
-                <outlet property="imageView" destination="Qei-4L-981" id="ij8-xO-5zj"/>
+                <outlet property="picView" destination="Qei-4L-981" id="LfS-uM-xHc"/>
                 <outlet property="sourceLabel" destination="Fv1-f4-kVZ" id="yt0-dw-S2S"/>
             </connections>
         </tableViewCell>
