@@ -76,9 +76,14 @@ extension XHRViewModel : XHRViewModelType{
         
         let output = XHROutput(sections : sections)
         
+//        xhrNetManager.request(.data(type : input.category , size : 10 , index : self.index)) { (event , error) in
+//
+//
+//        }
+        
         xhrNetManager.request(.data(type : input.category , size : 10 , index : self.index)) { [weak self] (event) in
             
-            
+            print(event)
             
         }
         

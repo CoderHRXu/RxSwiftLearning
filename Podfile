@@ -17,5 +17,6 @@ pod 'Reusable'
 pod 'MJRefresh'
 pod 'SVProgressHUD'
 pod 'R.swift'
+pod 'PKHUD', '~> 4.0'
 
 end
